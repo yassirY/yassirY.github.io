@@ -1,0 +1,98 @@
+h1, p {
+  background: ;
+  text-align : center;
+  font-family: Georgia, "Times New Roman";
+  font-style: italic;
+  border-radius: 20px 20px 20px 20px;
+}
+html {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+.header {
+    background-color: gray;
+    padding: 20px;
+    text-align: justify;
+    border: 20px solid black;
+}
+.header {
+    border-radius: 15px;
+    background: gray;
+    padding: 20px;
+    width: 1269px;
+    height: 50px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+}
+background-color: #ddd;
+.topnav a:hover {
+    color: black;
+}
+body {
+  background-color: gray;
+}
+.column {
+    float: left;
+    padding: 10px;
+}
+.column.side {
+    width: 25%;
+}
+.column.middle {
+    width: 50%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media (max-width: 600px) {
+    .column, .column.middle {
+        padding: 5px;
+        width: 100%;
+    }
+}
+ {
+  margin: 0px;
+  padding: 0px;
+}
+.antwoord {
+  color: black;
+  background-color: black;
+  margin: 0 300px 0 300px;
+  padding: 0px;
+}
+.antwoord:hover {
+  color: yellow;
+  margin: 0 300px 0 300px;
+  padding: 0px;
+}
+.solumn {
+    float: left;
+    padding: 50px;
+    margin: 0 0 0 35%; /* links 50% marge, boven en onder geen marge  */
+}
+.solumn.side {
+    width: 30%;
+}
+.solumn.middle {
+    width: 50%;
+}
+.vraag {
+  margin: 10px 250px 10px 250px;
+  padding: 0px;
+}
