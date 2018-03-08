@@ -47,6 +47,7 @@ body {
 .column {
     float: left;
     padding: 10px;
+    border-style: dotted;
 }
 .column.side {
     width: 25%;
@@ -75,6 +76,7 @@ body {
   background-color: black;
   margin: 0 300px 0 300px;
   padding: 0px;
+  border-style: dotted;
 }
 .antwoord:hover {
   color: yellow;
@@ -95,4 +97,5 @@ body {
 .vraag {
   margin: 10px 250px 10px 250px;
   padding: 0px;
+  border-style: dotted;
 }
